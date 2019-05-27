@@ -1,0 +1,8 @@
+---
+applications:
+  - name: mybudget
+    path: target/budget-service-0.0.1-SNAPSHOT.jar
+    services:
+      - test-registry
+      - test-config
+      - test-breaker

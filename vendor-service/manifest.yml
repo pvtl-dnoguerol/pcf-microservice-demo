@@ -1,0 +1,7 @@
+---
+applications:
+  - name: myvendors
+    path: target/vendor-service-0.0.1-SNAPSHOT.jar
+    services:
+      - test-registry
+      - test-config
